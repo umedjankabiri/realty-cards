@@ -1,5 +1,7 @@
 export type IconProps = {
-    name: 'iconName1' | 'iconName2' | 'iconCalendar';
+    name: "arrow" | "group" | "like" | "location"
+        | "phone" | "rooms" | "sorting" | "sqm"
+        | "sunset" | "telegram" | "whatsApp"
     width?: number;
     height?: number;
 };
