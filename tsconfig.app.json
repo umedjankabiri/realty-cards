@@ -20,7 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "baseUrl": "src"
-  },
-  "include": ["src"]
+    /* Absolute path */
+    "baseUrl": "src",
+
+    "include": ["src"]
+  }
 }
