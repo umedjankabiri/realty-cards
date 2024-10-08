@@ -13,10 +13,10 @@ export const Card: FC<CardProps> = (props) => {
             <div className={stl.images}>
                 <div className={stl.svgOnPics}>
                     <div className={stl.like}>
-                        <Icons name={"like"} />
+                        <Icons name={"like"}/>
                     </div>
                     <div className={stl.group}>
-                        <Icons name={"group"} />
+                        <Icons name={"group"}/>
                     </div>
                 </div>
                 <Images className={stl.image} url={image.url} alt={image.alt}/>
@@ -35,13 +35,16 @@ export const Card: FC<CardProps> = (props) => {
                         <span>ID: {ID}</span>
                     </div>
                     <div className={stl.square}>
-                        <div className={stl.svgIcons}><Icons name={"sqm"}/></div> <span>{square}</span>
+                        <div className={stl.svgIcons}><Icons name={"sqm"}/></div>
+                        <span>{square}</span>
                     </div>
                     <div className={stl.rooms}>
-                        <div className={stl.svgIcons}><Icons name={"rooms"}/></div> <span>{rooms}</span>
-                        </div>
+                        <div className={stl.svgIcons}><Icons name={"rooms"}/></div>
+                        <span>{rooms}</span>
+                    </div>
                     <div className={stl.nearSea}>
-                        <div className={stl.svgIcons}><Icons name={"sunset"}/></div> <span>{nearSea}</span>
+                        <div className={stl.svgIcons}><Icons name={"sunset"}/></div>
+                        <span>{nearSea}</span>
                     </div>
                 </div>
                 <div className={stl.filter}>
