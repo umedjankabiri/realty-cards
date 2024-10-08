@@ -180,7 +180,6 @@
     height: 36px;
     color: #2e5a90;
     margin-top: 10px;
-
 }
 
 .box1 {
@@ -272,6 +271,7 @@
     border-radius: 12px;
     background-color: #2e5a90;
     cursor: pointer;
+    border: none;
 }
 
 .telegram {
@@ -280,6 +280,7 @@
     border-radius: 12px;
     background-color: #2e5a90;
     cursor: pointer;
+    border: none;
 }
 
 .phone {
@@ -288,4 +289,5 @@
     border-radius: 12px;
     background-color: #2e5a90;
     cursor: pointer;
+    border: none;
 }
