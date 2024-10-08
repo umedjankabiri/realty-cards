@@ -2,6 +2,7 @@ import {FC} from 'react';
 import stl from "./mainLayout.module.css"
 import {Icons} from "common/components/Icons/Icons.tsx";
 import {Cards} from "common/components/Cards/Cards.tsx";
+import {Button} from "common/components/Button/Button.tsx";
 
 export const MainLayout: FC = () => {
 
@@ -22,10 +23,19 @@ export const MainLayout: FC = () => {
                     </div>
                 </div>
                 <div className={stl.cards}>
-                    <Cards />
+                    <Cards/>
                 </div>
-                <div className={stl.pagination}>
-
+                <div className={stl.paginationWrapper}>
+                    <div>
+                        <Button className={stl.selectedFromTo}>Показать еще 16 из 280</Button>
+                    </div>
+                    <div className={stl.paginationButtons}>
+                        <Button className={stl.selectedButton}>1</Button>
+                        <Button className={stl.nextButton}>2</Button>
+                        <Button className={stl.nextButton}>3</Button>
+                        <div className={stl.points}>...</div>
+                        <Button className={stl.nextButton}>24</Button>
+                    </div>
                 </div>
             </div>
         </div>
