@@ -1,0 +1,292 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    width: 567px;
+    height: 800px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 519px;
+    height: 450px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.svgOnPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    width: 96px;
+    height: 44px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.like, .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #edf4fc;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+.descriptionWrapper {
+    border-radius: 0 0 20px 20px;
+    width: 519px;
+    height: 282px;
+    background-color: #fff;
+}
+
+.addressWrapper {
+    padding: 0 0 4px 0;
+    width: 519px;
+    height: 64px;
+}
+
+.description {
+    width: 400px;
+    height: 24px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #2e5a90;
+}
+
+.address {
+    border-radius: 10px;
+    width: 366px;
+    height: 24px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: #2e5a90;
+}
+
+.descriptionFlat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 519px;
+    height: 36px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #2e5a90;
+}
+
+.svgIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #2E5A90;
+}
+
+.flatID {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 0 10px;
+    width: 114px;
+    height: 36px;
+
+    background-color: #2e5a90;
+    color: #fff
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 0 10px 0 5px;
+    width: 97px;
+    height: 36px;
+
+    background-color: #edf4fc;
+    color: #2E5A90
+}
+
+.rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 0 10px 0 5px;
+    width: 80px;
+    height: 36px;
+
+    background-color: #edf4fc;
+    color: #2E5A90
+}
+
+.nearSea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 0 10px 0 5px;
+    width: 102px;
+    height: 36px;
+
+    background-color: #edf4fc;
+    color: #2E5A90
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 519px;
+    height: 36px;
+    color: #2e5a90;
+    margin-top: 10px;
+
+}
+
+.box1 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+    width: 159px;
+    height: 36px;
+    background: #f8f2d8;
+}
+
+.box2 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+    width: 186px;
+    height: 36px;
+    background: #ecfbee;
+}
+
+.box3 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+    width: 157px;
+    height: 36px;
+    background: #edf4fc;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #edf4fc;
+    color: #2e5a90;
+
+    border-radius: 12px;
+    padding: 6px 20px;
+    width: 519px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+
+    margin-top: 10px;
+}
+
+.priceText{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    color: #2e5a90;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+
+    width: 519px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.more {
+    border: 1px solid #2e5a90;
+    border-radius: 12px;
+    padding: 10px;
+    width: 327px;
+    height: 50px;
+    background-color: #fff;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    color: #2e5a90;
+    cursor: pointer;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #2e5a90;
+    cursor: pointer;
+}
+
+.telegram {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #2e5a90;
+    cursor: pointer;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #2e5a90;
+    cursor: pointer;
+}
